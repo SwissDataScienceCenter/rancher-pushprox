@@ -2,8 +2,8 @@ name: Publish the chart upon tag
 
 on:
   push:
-    tags: ["*"]
-  workflow_dispatch:
+    tags:
+      - "*"
 
 jobs:
   publish-chart:
