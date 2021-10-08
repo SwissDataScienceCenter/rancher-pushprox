@@ -1,0 +1,6 @@
+charts:
+  - name: helm-chart/rancher-pushprox
+    resetTag: ""
+    repo:
+      git: SwissDataScienceCenter/helm-charts
+      published: https://swissdatasciencecenter.github.io/helm-charts
