@@ -17,7 +17,7 @@ jobs:
         run: echo ::set-output name=tag::${GITHUB_REF#refs/*/}
       - uses: SwissDataScienceCenter/renku-actions/publish-chart@v0.2.0
         env:
-          CHART_DIR: ./
+          CHART_DIR: helm-chart/
           CHART_NAME: rancher-pushprox
           GIT_USER: chart-bot
           GIT_EMAIL: chart-bot@example.com
